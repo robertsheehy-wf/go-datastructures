@@ -21,6 +21,8 @@ Implement a bottom-up version as well.
 ## Bit Array
 
 
+
+
 Also known as a bitmap, a bitarray is useful for comparing two sets of data that can be represented as an integer.  It's useful because bitwise operations can compare a number of these integers at once instead of independently.  For instance, the sets {1, 3, 5} and {3, 5, 7} can be intersected in a single clock cycle if these sets were represented in their associated bit array.  Included in this package is the ability to convert a bitarray back to integers.
 
 There are two implementations of bit arrays in this package, one is dense and the other borrows concepts from linear algebra's compressed row sparse matrix to represent bitarrays in much smaller spaces.  Unfortunately, the sparse version has logarithmic insertions and existence checks but retains some speed advantages when checking for intersections.
