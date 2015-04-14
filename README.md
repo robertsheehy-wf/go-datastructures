@@ -153,6 +153,7 @@ When new code is merged to master, you can use
 	go get -u github.com/Workiva/go-datastructures/...
 
 To retrieve the latest version of go-datastructures.
+blah blah
 
 ### Testing
 
