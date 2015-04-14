@@ -6,6 +6,7 @@ Go-datastructures is a collection of useful, performant, and threadsafe Go
 datastructures.
 
 
+
 ### NOTE: only tested with Go 1.3+.
 
 #### Augmented Tree
